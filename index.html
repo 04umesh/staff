@@ -1,0 +1,1318 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top py-4 navbar-scroll">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="assets/images/logo.png" alt="" class="img-fluid"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <a href="#" class="offcanvas-title" id="offcanvasNavbarLabel"><img src="assets/images/logo.png"
+                            alt="" class="img-fluid"></a>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Job Seekers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link signin-link" href="#">Sign In</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="hero py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="hero-container">
+                        <h1 class="pb-3 mt-3 mt-lg-0">Search Active <span>Sales</span> Job Seekers Looking for
+                            Employment</h1>
+                        <div class="search-filter-box d-flex align-items-center mt-5 mb-5">
+                            <select class="form-select me-3" aria-label="Default select example"
+                                placeholder="Default select example">
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                            <input type="number" class="form-control me-3 zip-code-field" placeholder="Zip Code">
+                            <button class="btn"><img src="assets/images/search.svg" class="img-fluid" alt=""></button>
+                        </div>
+                        <p class="mb-5">Looking for work? <span>Sign up here</span></p>
+                        <div class="trending-searches d-flex flex-wrap justify-content-center align-items-center">
+                            <p class="mb-0 me-3"><img src="assets/images/graph.svg" class="img-fluid" alt=""> Trending
+                                Searches: </p>
+                            <div class="trending-search-item my-1">Customer Service Representative</div>
+                            <div class="trending-search-item my-1">Sales Manager</div>
+                            <div class="trending-search-item my-1">Chief Sales Officer</div>
+                            <div class="trending-search-item my-1">Sales Director</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hero-background"></div>
+    <section class="job-posted position-relative pb-5 pb-lg-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="position-relative px-5">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide py-5 py-lg-4">
+                                    <div class="job-posted-card">
+                                        <div class="job-posted-img">
+                                            <div class="video-play-icon">
+                                                <img src="assets/images/video-play.png" class="img-fluid" alt="">
+                                            </div>
+                                            <img src="assets/images/members/member-1.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="job-posted-content">
+                                            <h6 class="text-black job-posted-name">Adams G. <img
+                                                    src="assets/images/job-badge.svg" class="img-fluid ms-1" alt="">
+                                            </h6>
+                                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                                <p class="profile text-black mb-0">Sales</p>
+                                                <div class="online-status d-flex align-items-center">
+                                                    <span class="green me-1"></span>
+                                                    <p class="mb-0">Online Now</p>
+                                                </div>
+                                            </div>
+                                            <div class="profile-level d-flex align-items-center mb-2"><img
+                                                    src="assets/images/senior-badge.svg" class="img-fluid me-2" alt="">
+                                                <p class="mb-0">Senior level</p>
+                                            </div>
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="price me-3 d-flex align-items-center"><img
+                                                        src="assets/images/dollar-circle.svg" class="img-fluid me-2"
+                                                        alt="">
+                                                    <p class="mb-0">$280,000 - $300,000</p>
+                                                </div>
+                                                <div class="job-shift d-flex align-items-center">
+                                                    <img src="assets/images/job-shift.svg" class="img-fluid me-2"
+                                                        alt="">
+                                                    <p class="mb-0">Full-time</p>
+                                                </div>
+                                            </div>
+                                            <div class="languages d-flex align-items-center mb-2">
+                                                <img src="assets/images/language.svg" class="img-fluid me-2" alt="">
+                                                <p class="mb-0">English, Spanish</p>
+                                            </div>
+                                            <div class="education d-flex align-items-center mb-2">
+                                                <img src="assets/images/graduate-cap.svg" class="img-fluid me-2" alt="">
+                                                <p class="mb-0">University of
+                                                    Michigan, 2012</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                                <div class="location d-flex align-items-center"><img
+                                                        src="assets/images/location.svg" class="img-fluid me-2" alt="">
+                                                    <p class="mb-0">Anytown, USA 12345</p>
+                                                </div>
+                                                <div class="contact-btn d-flex align-items-center">
+                                                    <p class="mb-0">Contact</p> <img
+                                                        src="assets/images/arrow-right-circle.svg"
+                                                        class="img-fluid ms-2" alt="">
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide py-5 py-lg-4">
+                                    <div class="job-posted-card">
+                                        <div class="job-posted-img">
+                                            <div class="video-play-icon">
+                                                <img src="assets/images/video-play.png" class="img-fluid" alt="">
+                                            </div>
+                                            <img src="assets/images/members/member-2.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="job-posted-content">
+                                            <h6 class="text-black job-posted-name">Adams G. <img
+                                                    src="assets/images/job-badge.svg" class="img-fluid ms-1" alt="">
+                                            </h6>
+                                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                                <p class="profile text-black mb-0">Sales</p>
+                                                <div class="online-status online-ago d-flex align-items-center">
+                                                    <p class="mb-0">Active 6 hrs ago</p>
+                                                </div>
+                                            </div>
+                                            <div class="profile-level d-flex align-items-center mb-2"><img
+                                                    src="assets/images/entry-level.svg" class="img-fluid me-2" alt="">
+                                                <p class="mb-0">Entry level</p>
+                                            </div>
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="price me-3 d-flex align-items-center"><img
+                                                        src="assets/images/dollar-circle.svg" class="img-fluid me-2"
+                                                        alt="">
+                                                    <p class="mb-0">$280,000 - $300,000</p>
+                                                </div>
+                                                <div class="job-shift d-flex align-items-center">
+                                                    <img src="assets/images/job-shift.svg" class="img-fluid me-2"
+                                                        alt="">
+                                                    <p class="mb-0">Full-time</p>
+                                                </div>
+                                            </div>
+                                            <div class="languages d-flex align-items-center mb-2">
+                                                <img src="assets/images/language.svg" class="img-fluid me-2" alt="">
+                                                <p class="mb-0">English, Spanish</p>
+                                            </div>
+                                            <div class="education d-flex align-items-center mb-2">
+                                                <img src="assets/images/graduate-cap.svg" class="img-fluid me-2" alt="">
+                                                <p class="mb-0">University of
+                                                    Michigan, 2012</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                                <div class="location d-flex align-items-center"><img
+                                                        src="assets/images/location.svg" class="img-fluid me-2" alt="">
+                                                    <p class="mb-0">Anytown, USA 12345</p>
+                                                </div>
+                                                <div class="contact-btn d-flex align-items-center">
+                                                    <p class="mb-0">Contact</p> <img
+                                                        src="assets/images/arrow-right-circle.svg"
+                                                        class="img-fluid ms-2" alt="">
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide py-5 py-lg-4">
+                                    <div class="job-posted-card">
+                                        <div class="job-posted-img">
+                                            <div class="video-play-icon">
+                                                <img src="assets/images/video-play.png" class="img-fluid" alt="">
+                                            </div>
+                                            <img src="assets/images/members/member-3.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="job-posted-content">
+                                            <h6 class="text-black job-posted-name">Adams G. <img
+                                                    src="assets/images/job-badge.svg" class="img-fluid ms-1" alt="">
+                                            </h6>
+                                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                                <p class="profile text-black mb-0">Sales</p>
+                                                <div class="online-status online-ago d-flex align-items-center">
+                                                    <p class="mb-0">Active 6 hrs ago</p>
+                                                </div>
+                                            </div>
+                                            <div class="profile-level d-flex align-items-center mb-2"><img
+                                                    src="assets/images/mid-level.svg" class="img-fluid me-2" alt="">
+                                                <p class="mb-0">Mid level</p>
+                                            </div>
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="price me-3 d-flex align-items-center"><img
+                                                        src="assets/images/dollar-circle.svg" class="img-fluid me-2"
+                                                        alt="">
+                                                    <p class="mb-0">$280,000 - $300,000</p>
+                                                </div>
+                                                <div class="job-shift d-flex align-items-center">
+                                                    <img src="assets/images/job-shift.svg" class="img-fluid me-2"
+                                                        alt="">
+                                                    <p class="mb-0">Full-time</p>
+                                                </div>
+                                            </div>
+                                            <div class="languages d-flex align-items-center mb-2">
+                                                <img src="assets/images/language.svg" class="img-fluid me-2" alt="">
+                                                <p class="mb-0">English, Spanish</p>
+                                            </div>
+                                            <div class="education d-flex align-items-center mb-2">
+                                                <img src="assets/images/graduate-cap.svg" class="img-fluid me-2" alt="">
+                                                <p class="mb-0">University of
+                                                    Michigan, 2012</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                                <div class="location d-flex align-items-center"><img
+                                                        src="assets/images/location.svg" class="img-fluid me-2" alt="">
+                                                    <p class="mb-0">Anytown, USA 12345</p>
+                                                </div>
+                                                <div class="contact-btn d-flex align-items-center">
+                                                    <p class="mb-0">Contact</p> <img
+                                                        src="assets/images/arrow-right-circle.svg"
+                                                        class="img-fluid ms-2" alt="">
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide py-5 py-lg-4">
+                                    <div class="job-posted-card">
+                                        <div class="job-posted-img">
+                                            <div class="video-play-icon">
+                                                <img src="assets/images/video-play.png" class="img-fluid" alt="">
+                                            </div>
+                                            <img src="assets/images/members/member-4.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="job-posted-content">
+                                            <h6 class="text-black job-posted-name">Adams G. <img
+                                                    src="assets/images/job-badge.svg" class="img-fluid ms-1" alt="">
+                                            </h6>
+                                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                                <p class="profile text-black mb-0">Sales</p>
+                                                <div class="online-status online-ago d-flex align-items-center">
+                                                    <p class="mb-0">Active 6 hrs ago</p>
+                                                </div>
+                                            </div>
+                                            <div class="profile-level d-flex align-items-center mb-2"><img
+                                                    src="assets/images/senior-badge.svg" class="img-fluid me-2" alt="">
+                                                <p class="mb-0">Senior level</p>
+                                            </div>
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="price me-3 d-flex align-items-center"><img
+                                                        src="assets/images/dollar-circle.svg" class="img-fluid me-2"
+                                                        alt="">
+                                                    <p class="mb-0">$280,000 - $300,000</p>
+                                                </div>
+                                                <div class="job-shift d-flex align-items-center">
+                                                    <img src="assets/images/job-shift.svg" class="img-fluid me-2"
+                                                        alt="">
+                                                    <p class="mb-0">Full-time</p>
+                                                </div>
+                                            </div>
+                                            <div class="languages d-flex align-items-center mb-2">
+                                                <img src="assets/images/language.svg" class="img-fluid me-2" alt="">
+                                                <p class="mb-0">English, Spanish</p>
+                                            </div>
+                                            <div class="education d-flex align-items-center mb-2">
+                                                <img src="assets/images/graduate-cap.svg" class="img-fluid me-2" alt="">
+                                                <p class="mb-0">University of
+                                                    Michigan, 2012</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                                <div class="location d-flex align-items-center"><img
+                                                        src="assets/images/location.svg" class="img-fluid me-2" alt="">
+                                                    <p class="mb-0">Anytown, USA 12345</p>
+                                                </div>
+                                                <div class="contact-btn d-flex align-items-center">
+                                                    <p class="mb-0">Contact</p> <img
+                                                        src="assets/images/arrow-right-circle.svg"
+                                                        class="img-fluid ms-2" alt="">
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide py-5 py-lg-4">
+                                    <div class="job-posted-card">
+                                        <div class="job-posted-img">
+                                            <div class="video-play-icon">
+                                                <img src="assets/images/video-play.png" class="img-fluid" alt="">
+                                            </div>
+                                            <img src="assets/images/members/member-1.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="job-posted-content">
+                                            <h6 class="text-black job-posted-name">Adams G. <img
+                                                    src="assets/images/job-badge.svg" class="img-fluid ms-1" alt="">
+                                            </h6>
+                                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                                <p class="profile text-black mb-0">Sales</p>
+                                                <div class="online-status d-flex align-items-center">
+                                                    <span class="green me-1"></span>
+                                                    <p class="mb-0">Online Now</p>
+                                                </div>
+                                            </div>
+                                            <div class="profile-level d-flex align-items-center mb-2"><img
+                                                    src="assets/images/senior-badge.svg" class="img-fluid me-2" alt="">
+                                                <p class="mb-0">Senior level</p>
+                                            </div>
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="price me-3 d-flex align-items-center"><img
+                                                        src="assets/images/dollar-circle.svg" class="img-fluid me-2"
+                                                        alt="">
+                                                    <p class="mb-0">$280,000 - $300,000</p>
+                                                </div>
+                                                <div class="job-shift d-flex align-items-center">
+                                                    <img src="assets/images/job-shift.svg" class="img-fluid me-2"
+                                                        alt="">
+                                                    <p class="mb-0">Full-time</p>
+                                                </div>
+                                            </div>
+                                            <div class="languages d-flex align-items-center mb-2">
+                                                <img src="assets/images/language.svg" class="img-fluid me-2" alt="">
+                                                <p class="mb-0">English, Spanish</p>
+                                            </div>
+                                            <div class="education d-flex align-items-center mb-2">
+                                                <img src="assets/images/graduate-cap.svg" class="img-fluid me-2" alt="">
+                                                <p class="mb-0">University of
+                                                    Michigan, 2012</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                                <div class="location d-flex align-items-center"><img
+                                                        src="assets/images/location.svg" class="img-fluid me-2" alt="">
+                                                    <p class="mb-0">Anytown, USA 12345</p>
+                                                </div>
+                                                <div class="contact-btn d-flex align-items-center">
+                                                    <p class="mb-0">Contact</p> <img
+                                                        src="assets/images/arrow-right-circle.svg"
+                                                        class="img-fluid ms-2" alt="">
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide py-5 py-lg-4">
+                                    <div class="job-posted-card">
+                                        <div class="job-posted-img">
+                                            <div class="video-play-icon">
+                                                <img src="assets/images/video-play.png" class="img-fluid" alt="">
+                                            </div>
+                                            <img src="assets/images/members/member-2.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="job-posted-content">
+                                            <h6 class="text-black job-posted-name">Adams G. <img
+                                                    src="assets/images/job-badge.svg" class="img-fluid ms-1" alt="">
+                                            </h6>
+                                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                                <p class="profile text-black mb-0">Sales</p>
+                                                <div class="online-status online-ago d-flex align-items-center">
+                                                    <p class="mb-0">Active 6 hrs ago</p>
+                                                </div>
+                                            </div>
+                                            <div class="profile-level d-flex align-items-center mb-2"><img
+                                                    src="assets/images/entry-level.svg" class="img-fluid me-2" alt="">
+                                                <p class="mb-0">Entry level</p>
+                                            </div>
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="price me-3 d-flex align-items-center"><img
+                                                        src="assets/images/dollar-circle.svg" class="img-fluid me-2"
+                                                        alt="">
+                                                    <p class="mb-0">$280,000 - $300,000</p>
+                                                </div>
+                                                <div class="job-shift d-flex align-items-center">
+                                                    <img src="assets/images/job-shift.svg" class="img-fluid me-2"
+                                                        alt="">
+                                                    <p class="mb-0">Full-time</p>
+                                                </div>
+                                            </div>
+                                            <div class="languages d-flex align-items-center mb-2">
+                                                <img src="assets/images/language.svg" class="img-fluid me-2" alt="">
+                                                <p class="mb-0">English, Spanish</p>
+                                            </div>
+                                            <div class="education d-flex align-items-center mb-2">
+                                                <img src="assets/images/graduate-cap.svg" class="img-fluid me-2" alt="">
+                                                <p class="mb-0">University of
+                                                    Michigan, 2012</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                                <div class="location d-flex align-items-center"><img
+                                                        src="assets/images/location.svg" class="img-fluid me-2" alt="">
+                                                    <p class="mb-0">Anytown, USA 12345</p>
+                                                </div>
+                                                <div class="contact-btn d-flex align-items-center">
+                                                    <p class="mb-0">Contact</p> <img
+                                                        src="assets/images/arrow-right-circle.svg"
+                                                        class="img-fluid ms-2" alt="">
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide py-5 py-lg-4">
+                                    <div class="job-posted-card">
+                                        <div class="job-posted-img">
+                                            <div class="video-play-icon">
+                                                <img src="assets/images/video-play.png" class="img-fluid" alt="">
+                                            </div>
+                                            <img src="assets/images/members/member-3.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="job-posted-content">
+                                            <h6 class="text-black job-posted-name">Adams G. <img
+                                                    src="assets/images/job-badge.svg" class="img-fluid ms-1" alt="">
+                                            </h6>
+                                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                                <p class="profile text-black mb-0">Sales</p>
+                                                <div class="online-status online-ago d-flex align-items-center">
+                                                    <p class="mb-0">Active 6 hrs ago</p>
+                                                </div>
+                                            </div>
+                                            <div class="profile-level d-flex align-items-center mb-2"><img
+                                                    src="assets/images/mid-level.svg" class="img-fluid me-2" alt="">
+                                                <p class="mb-0">Mid level</p>
+                                            </div>
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="price me-3 d-flex align-items-center"><img
+                                                        src="assets/images/dollar-circle.svg" class="img-fluid me-2"
+                                                        alt="">
+                                                    <p class="mb-0">$280,000 - $300,000</p>
+                                                </div>
+                                                <div class="job-shift d-flex align-items-center">
+                                                    <img src="assets/images/job-shift.svg" class="img-fluid me-2"
+                                                        alt="">
+                                                    <p class="mb-0">Full-time</p>
+                                                </div>
+                                            </div>
+                                            <div class="languages d-flex align-items-center mb-2">
+                                                <img src="assets/images/language.svg" class="img-fluid me-2" alt="">
+                                                <p class="mb-0">English, Spanish</p>
+                                            </div>
+                                            <div class="education d-flex align-items-center mb-2">
+                                                <img src="assets/images/graduate-cap.svg" class="img-fluid me-2" alt="">
+                                                <p class="mb-0">University of
+                                                    Michigan, 2012</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                                <div class="location d-flex align-items-center"><img
+                                                        src="assets/images/location.svg" class="img-fluid me-2" alt="">
+                                                    <p class="mb-0">Anytown, USA 12345</p>
+                                                </div>
+                                                <div class="contact-btn d-flex align-items-center">
+                                                    <p class="mb-0">Contact</p> <img
+                                                        src="assets/images/arrow-right-circle.svg"
+                                                        class="img-fluid ms-2" alt="">
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide py-5 py-lg-4">
+                                    <div class="job-posted-card">
+                                        <div class="job-posted-img">
+                                            <div class="video-play-icon">
+                                                <img src="assets/images/video-play.png" class="img-fluid" alt="">
+                                            </div>
+                                            <img src="assets/images/members/member-4.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="job-posted-content">
+                                            <h6 class="text-black job-posted-name">Adams G. <img
+                                                    src="assets/images/job-badge.svg" class="img-fluid ms-1" alt="">
+                                            </h6>
+                                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                                <p class="profile text-black mb-0">Sales</p>
+                                                <div class="online-status online-ago d-flex align-items-center">
+                                                    <p class="mb-0">Active 6 hrs ago</p>
+                                                </div>
+                                            </div>
+                                            <div class="profile-level d-flex align-items-center mb-2"><img
+                                                    src="assets/images/senior-badge.svg" class="img-fluid me-2" alt="">
+                                                <p class="mb-0">Senior level</p>
+                                            </div>
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="price me-3 d-flex align-items-center"><img
+                                                        src="assets/images/dollar-circle.svg" class="img-fluid me-2"
+                                                        alt="">
+                                                    <p class="mb-0">$280,000 - $300,000</p>
+                                                </div>
+                                                <div class="job-shift d-flex align-items-center">
+                                                    <img src="assets/images/job-shift.svg" class="img-fluid me-2"
+                                                        alt="">
+                                                    <p class="mb-0">Full-time</p>
+                                                </div>
+                                            </div>
+                                            <div class="languages d-flex align-items-center mb-2">
+                                                <img src="assets/images/language.svg" class="img-fluid me-2" alt="">
+                                                <p class="mb-0">English, Spanish</p>
+                                            </div>
+                                            <div class="education d-flex align-items-center mb-2">
+                                                <img src="assets/images/graduate-cap.svg" class="img-fluid me-2" alt="">
+                                                <p class="mb-0">University of
+                                                    Michigan, 2012</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                                <div class="location d-flex align-items-center"><img
+                                                        src="assets/images/location.svg" class="img-fluid me-2" alt="">
+                                                    <p class="mb-0">Anytown, USA 12345</p>
+                                                </div>
+                                                <div class="contact-btn d-flex align-items-center">
+                                                    <p class="mb-0">Contact</p> <img
+                                                        src="assets/images/arrow-right-circle.svg"
+                                                        class="img-fluid ms-2" alt="">
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide py-5 py-lg-4">
+                                    <div class="job-posted-card">
+                                        <div class="job-posted-img">
+                                            <div class="video-play-icon">
+                                                <img src="assets/images/video-play.png" class="img-fluid" alt="">
+                                            </div>
+                                            <img src="assets/images/members/member-1.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="job-posted-content">
+                                            <h6 class="text-black job-posted-name">Adams G. <img
+                                                    src="assets/images/job-badge.svg" class="img-fluid ms-1" alt="">
+                                            </h6>
+                                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                                <p class="profile text-black mb-0">Sales</p>
+                                                <div class="online-status d-flex align-items-center">
+                                                    <span class="green me-1"></span>
+                                                    <p class="mb-0">Online Now</p>
+                                                </div>
+                                            </div>
+                                            <div class="profile-level d-flex align-items-center mb-2"><img
+                                                    src="assets/images/senior-badge.svg" class="img-fluid me-2" alt="">
+                                                <p class="mb-0">Senior level</p>
+                                            </div>
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="price me-3 d-flex align-items-center"><img
+                                                        src="assets/images/dollar-circle.svg" class="img-fluid me-2"
+                                                        alt="">
+                                                    <p class="mb-0">$280,000 - $300,000</p>
+                                                </div>
+                                                <div class="job-shift d-flex align-items-center">
+                                                    <img src="assets/images/job-shift.svg" class="img-fluid me-2"
+                                                        alt="">
+                                                    <p class="mb-0">Full-time</p>
+                                                </div>
+                                            </div>
+                                            <div class="languages d-flex align-items-center mb-2">
+                                                <img src="assets/images/language.svg" class="img-fluid me-2" alt="">
+                                                <p class="mb-0">English, Spanish</p>
+                                            </div>
+                                            <div class="education d-flex align-items-center mb-2">
+                                                <img src="assets/images/graduate-cap.svg" class="img-fluid me-2" alt="">
+                                                <p class="mb-0">University of
+                                                    Michigan, 2012</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                                <div class="location d-flex align-items-center"><img
+                                                        src="assets/images/location.svg" class="img-fluid me-2" alt="">
+                                                    <p class="mb-0">Anytown, USA 12345</p>
+                                                </div>
+                                                <div class="contact-btn d-flex align-items-center">
+                                                    <p class="mb-0">Contact</p> <img
+                                                        src="assets/images/arrow-right-circle.svg"
+                                                        class="img-fluid ms-2" alt="">
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide py-5 py-lg-4">
+                                    <div class="job-posted-card">
+                                        <div class="job-posted-img">
+                                            <div class="video-play-icon">
+                                                <img src="assets/images/video-play.png" class="img-fluid" alt="">
+                                            </div>
+                                            <img src="assets/images/members/member-2.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="job-posted-content">
+                                            <h6 class="text-black job-posted-name">Adams G. <img
+                                                    src="assets/images/job-badge.svg" class="img-fluid ms-1" alt="">
+                                            </h6>
+                                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                                <p class="profile text-black mb-0">Sales</p>
+                                                <div class="online-status online-ago d-flex align-items-center">
+                                                    <p class="mb-0">Active 6 hrs ago</p>
+                                                </div>
+                                            </div>
+                                            <div class="profile-level d-flex align-items-center mb-2"><img
+                                                    src="assets/images/entry-level.svg" class="img-fluid me-2" alt="">
+                                                <p class="mb-0">Entry level</p>
+                                            </div>
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="price me-3 d-flex align-items-center"><img
+                                                        src="assets/images/dollar-circle.svg" class="img-fluid me-2"
+                                                        alt="">
+                                                    <p class="mb-0">$280,000 - $300,000</p>
+                                                </div>
+                                                <div class="job-shift d-flex align-items-center">
+                                                    <img src="assets/images/job-shift.svg" class="img-fluid me-2"
+                                                        alt="">
+                                                    <p class="mb-0">Full-time</p>
+                                                </div>
+                                            </div>
+                                            <div class="languages d-flex align-items-center mb-2">
+                                                <img src="assets/images/language.svg" class="img-fluid me-2" alt="">
+                                                <p class="mb-0">English, Spanish</p>
+                                            </div>
+                                            <div class="education d-flex align-items-center mb-2">
+                                                <img src="assets/images/graduate-cap.svg" class="img-fluid me-2" alt="">
+                                                <p class="mb-0">University of
+                                                    Michigan, 2012</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                                <div class="location d-flex align-items-center"><img
+                                                        src="assets/images/location.svg" class="img-fluid me-2" alt="">
+                                                    <p class="mb-0">Anytown, USA 12345</p>
+                                                </div>
+                                                <div class="contact-btn d-flex align-items-center">
+                                                    <p class="mb-0">Contact</p> <img
+                                                        src="assets/images/arrow-right-circle.svg"
+                                                        class="img-fluid ms-2" alt="">
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide py-5 py-lg-4">
+                                    <div class="job-posted-card">
+                                        <div class="job-posted-img">
+                                            <div class="video-play-icon">
+                                                <img src="assets/images/video-play.png" class="img-fluid" alt="">
+                                            </div>
+                                            <img src="assets/images/members/member-3.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="job-posted-content">
+                                            <h6 class="text-black job-posted-name">Adams G. <img
+                                                    src="assets/images/job-badge.svg" class="img-fluid ms-1" alt="">
+                                            </h6>
+                                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                                <p class="profile text-black mb-0">Sales</p>
+                                                <div class="online-status online-ago d-flex align-items-center">
+                                                    <p class="mb-0">Active 6 hrs ago</p>
+                                                </div>
+                                            </div>
+                                            <div class="profile-level d-flex align-items-center mb-2"><img
+                                                    src="assets/images/mid-level.svg" class="img-fluid me-2" alt="">
+                                                <p class="mb-0">Mid level</p>
+                                            </div>
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="price me-3 d-flex align-items-center"><img
+                                                        src="assets/images/dollar-circle.svg" class="img-fluid me-2"
+                                                        alt="">
+                                                    <p class="mb-0">$280,000 - $300,000</p>
+                                                </div>
+                                                <div class="job-shift d-flex align-items-center">
+                                                    <img src="assets/images/job-shift.svg" class="img-fluid me-2"
+                                                        alt="">
+                                                    <p class="mb-0">Full-time</p>
+                                                </div>
+                                            </div>
+                                            <div class="languages d-flex align-items-center mb-2">
+                                                <img src="assets/images/language.svg" class="img-fluid me-2" alt="">
+                                                <p class="mb-0">English, Spanish</p>
+                                            </div>
+                                            <div class="education d-flex align-items-center mb-2">
+                                                <img src="assets/images/graduate-cap.svg" class="img-fluid me-2" alt="">
+                                                <p class="mb-0">University of
+                                                    Michigan, 2012</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                                <div class="location d-flex align-items-center"><img
+                                                        src="assets/images/location.svg" class="img-fluid me-2" alt="">
+                                                    <p class="mb-0">Anytown, USA 12345</p>
+                                                </div>
+                                                <div class="contact-btn d-flex align-items-center">
+                                                    <p class="mb-0">Contact</p> <img
+                                                        src="assets/images/arrow-right-circle.svg"
+                                                        class="img-fluid ms-2" alt="">
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide py-5 py-lg-4">
+                                    <div class="job-posted-card">
+                                        <div class="job-posted-img">
+                                            <div class="video-play-icon">
+                                                <img src="assets/images/video-play.png" class="img-fluid" alt="">
+                                            </div>
+                                            <img src="assets/images/members/member-4.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="job-posted-content">
+                                            <h6 class="text-black job-posted-name">Adams G. <img
+                                                    src="assets/images/job-badge.svg" class="img-fluid ms-1" alt="">
+                                            </h6>
+                                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                                <p class="profile text-black mb-0">Sales</p>
+                                                <div class="online-status online-ago d-flex align-items-center">
+                                                    <p class="mb-0">Active 6 hrs ago</p>
+                                                </div>
+                                            </div>
+                                            <div class="profile-level d-flex align-items-center mb-2"><img
+                                                    src="assets/images/senior-badge.svg" class="img-fluid me-2" alt="">
+                                                <p class="mb-0">Senior level</p>
+                                            </div>
+                                            <div class="d-flex align-items-center mb-2">
+                                                <div class="price me-3 d-flex align-items-center"><img
+                                                        src="assets/images/dollar-circle.svg" class="img-fluid me-2"
+                                                        alt="">
+                                                    <p class="mb-0">$280,000 - $300,000</p>
+                                                </div>
+                                                <div class="job-shift d-flex align-items-center">
+                                                    <img src="assets/images/job-shift.svg" class="img-fluid me-2"
+                                                        alt="">
+                                                    <p class="mb-0">Full-time</p>
+                                                </div>
+                                            </div>
+                                            <div class="languages d-flex align-items-center mb-2">
+                                                <img src="assets/images/language.svg" class="img-fluid me-2" alt="">
+                                                <p class="mb-0">English, Spanish</p>
+                                            </div>
+                                            <div class="education d-flex align-items-center mb-2">
+                                                <img src="assets/images/graduate-cap.svg" class="img-fluid me-2" alt="">
+                                                <p class="mb-0">University of
+                                                    Michigan, 2012</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                                <div class="location d-flex align-items-center"><img
+                                                        src="assets/images/location.svg" class="img-fluid me-2" alt="">
+                                                    <p class="mb-0">Anytown, USA 12345</p>
+                                                </div>
+                                                <div class="contact-btn d-flex align-items-center">
+                                                    <p class="mb-0">Contact</p> <img
+                                                        src="assets/images/arrow-right-circle.svg"
+                                                        class="img-fluid ms-2" alt="">
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination d-flex justify-content-center d-lg-none"></div>
+                        </div>
+                        <div class="swiper-button-next d-none d-lg-flex"></div>
+                        <div class="swiper-button-prev d-none d-lg-flex"></div>
+                    </div>
+                </div>
+
+                <div class="col-12 d-flex justify-content-center">
+                    <button class="btn see-more-btn">See More</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="video">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="video-tabs">
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="employers" data-bs-toggle="tab"
+                                    data-bs-target="#employers-pane" type="button" role="tab"
+                                    aria-controls="employers-pane" aria-selected="true">Employers</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="job-seekers-tab" data-bs-toggle="tab"
+                                    data-bs-target="#job-seekers-tab-pane" type="button" role="tab"
+                                    aria-controls="job-seekers-tab-pane" aria-selected="false">Job Seekers</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="employers-pane" role="tabpanel"
+                                aria-labelledby="employers" tabindex="0">
+                                <div class="video-item">
+                                    <div class="play-icon">
+                                        <img src="assets/images/video-play.png" class="img-fluid" alt="">
+                                    </div>
+                                    <img src="assets/images/video-thumbnail.png" class="img-fluid" alt="">
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="job-seekers-tab-pane" role="tabpanel"
+                                aria-labelledby="job-seekers-tab" tabindex="0">
+                                <div class="video-item">
+                                    <div class="play-icon">
+                                        <img src="assets/images/video-play.png" class="img-fluid" alt="">
+                                    </div>
+                                    <img src="assets/images/video-thumbnail.png" class="img-fluid" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="perfect-employee">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <div class="perfect-employee-heading">
+                        <h3 class="pe-md-5 me-lg-5 mb-lg-5 mb-4">Finding The Perfect Employee is Easy</h3>
+                        <button class="get-staft-btn">Get Staft</button>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="perfect-employee-content">
+                        <div class="d-flex align-items-center mb-4">
+                            <img src="assets/images/search.png" alt="" class="img-fluid me-md-5 me-3">
+                            <div>
+                                <h5 class="mb-1">Search</h5>
+                                <p>Search active, local job seekers looking for sales and <br
+                                        class="d-none d-md-block" /> supportive roles in LA.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center mb-4">
+                            <img src="assets/images/reach-out.png" alt="" class="img-fluid me-md-5 me-3">
+                            <div>
+                                <h5 class="mb-1">Reach out</h5>
+                                <p>Easily connect and schedule interviews directly with any candidate you choose.</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <img src="assets/images/hire.png" alt="" class="img-fluid me-md-5 me-3">
+                            <div>
+                                <h5 class="mb-1">Hire</h5>
+                                <p class="mb-0">Satisfied with the candidate? <br />
+                                    Simply hire.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features py-5 my-5">
+        <div class="background-box1 d-lg-block d-none"></div>
+        <div class="background-box2 d-lg-block d-none"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="features-item">
+                        <div class="background-box1 d-block d-lg-none"></div>
+                        <div class="features-img">
+                            <img src="assets/images/looking-for-work.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="features-content">
+
+                            <h5>Looking for work?</h5>
+                            <p>Stop applying. Discover exciting opportunities from employers who will reach out directly
+                                to you.</p>
+                            <button class="btn see-more-btn mx-0 mb-0">Create my profile</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="features-item feature-item-2">
+                        <div class="background-box2 d-block d-lg-none"></div>
+                        <div class="features-img">
+                            <img src="assets/images/ready-to-hire.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="features-content">
+                            <h5>Ready to hire?</h5>
+                            <p>Staft streamlines the hiring process for thousands of employers by connecting them with
+                                targeted, active job seekers at scale. Discover how Staft can help your business</p>
+                            <button class="btn see-more-btn mx-0 mb-0">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blogs py-lg-5 mt-5 mb-5 mb-lg-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mb-5">
+                    <h2 class="text-center">Blogs</h2>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="overlay-blog blog-item"
+                        style="background: url('./assets/images/blogs/blog-1.png'); background-position: center center; background-repeat: no-repeat; background-size: cover;">
+                        <div class="blog-content">
+                            <h5 class="mb-md-1 mb-0">Blog Topic</h5>
+                            <p class="blog-date mb-md-3 mb-2">24th January, 2023</p>
+                            <p class="mb-0">Lorem ipsum dolor sit amet, ipsum dolor sit amet ipsum dolor sit
+                                amet...<span class="see-more-action">See
+                                    more</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 mb-4">
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <img src="assets/images/blogs/blog-2.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="blog-content">
+                            <h5 class="mb-md-1 mb-0">Blog Topic</h5>
+                            <p class="blog-date mb-md-3 mb-2">24th January, 2023</p>
+                            <p class="mb-0">Lorem ipsum dolor sit amet, ipsum dolor sit amet ipsum dolor sit amet...
+                                <span class="see-more-action">See
+                                    more</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 mb-4">
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <img src="assets/images/blogs/blog-3.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="blog-content">
+                            <h5 class="mb-md-1 mb-0">Blog Topic</h5>
+                            <p class="blog-date mb-md-3 mb-2">24th January, 2023</p>
+                            <p class="mb-0">Lorem ipsum dolor sit amet, ipsum dolor sit amet ipsum dolor sit amet...
+                                <span class="see-more-action">See
+                                    more</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4 d-none d-lg-block">
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <img src="assets/images/blogs/blog-4.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="blog-content">
+                            <h5 class="mb-md-1 mb-0">Blog Topic</h5>
+                            <p class="blog-date mb-md-3 mb-2">24th January, 2023</p>
+                            <p class="mb-0">Lorem ipsum dolor sit amet, ipsum dolor sit amet ipsum dolor sit amet...
+                                <span class="see-more-action">See
+                                    more</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4 d-none d-lg-block">
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <img src="assets/images/blogs/blog-5.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="blog-content">
+                            <h5 class="mb-md-1 mb-0">Blog Topic</h5>
+                            <p class="blog-date mb-md-3 mb-2">24th January, 2023</p>
+                            <p class="mb-0">Lorem ipsum dolor sit amet, ipsum dolor sit amet ipsum dolor sit amet...
+                                <span class="see-more-action">See
+                                    more</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4 d-none d-lg-block">
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <img src="assets/images/blogs/blog-6.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="blog-content">
+                            <h5 class="mb-md-1 mb-0">Blog Topic</h5>
+                            <p class="blog-date mb-md-3 mb-2">24th January, 2023</p>
+                            <p class="mb-0">Lorem ipsum dolor sit amet, ipsum dolor sit amet ipsum dolor sit amet...
+                                <span class="see-more-action">See
+                                    more</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4 d-none d-lg-block">
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <img src="assets/images/blogs/blog-7.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="blog-content">
+                            <h5 class="mb-md-1 mb-0">Blog Topic</h5>
+                            <p class="blog-date mb-md-3 mb-2">24th January, 2023</p>
+                            <p class="mb-0">Lorem ipsum dolor sit amet, ipsum dolor sit amet ipsum dolor sit amet...
+                                <span class="see-more-action">See
+                                    more</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="col-12">
+                        <button class="btn see-more-btn">See More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="hero-background hero-background-2"></div>
+
+    <section class="staft-follow">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-5 mb-lg-0 pb-3 pb-lg-0">
+                    <div class="staft-follows-content">
+                        <h3>Staft follows you <br /> anywhere</h3>
+                        <p>Staft streamlines the hiring process for thousands of employers by connecting them with
+                            targeted, active job seekers at scale. Discover how Staft can help your business.</p>
+                        <a href="" class="download-btn">
+                            <img src="assets/images/download-btn.png" class="img-fluid" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-none d-lg-block">
+                    <div class="staft-follows-img">
+                        <img src="assets/images/staft-follow.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="staft-follows-img d-lg-none d-block">
+            <img src="assets/images/staft-follow.png" class="img-fluid" alt="">
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="d-flex flex-column flex-xl-row justify-content-between flex-wrap me-5">
+                        <div
+                            class="footer-column me-4 d-flex flex-column justify-content-between me-4 accordion-column">
+                            <div>
+                                <div class="logo mb-4">
+                                    <img src="assets/images/logo-white.svg" alt="" class="img-fluid">
+                                </div>
+                                <div class="social-icons">
+                                    <ul class="d-flex align-items-center">
+                                        <li class="me-4"><a href=""><img src="assets/images/facebook.svg"
+                                                    class="img-fluid" alt=""></a></li>
+                                        <li class="me-4"><a href=""><img src="assets/images/instagram.svg"
+                                                    class="img-fluid" alt=""></a></li>
+                                        <li class="me-4"><a href=""><img src="assets/images/twitter.svg"
+                                                    class="img-fluid" alt=""></a></li>
+                                    </ul>
+                                </div>
+                                <p class="mb-0 mb-lg-2 address">360 E. 2nd St., Ste. 800 <br
+                                        class="d-none d-lg-block" />
+                                    Los Angeles, CA 90012</p>
+                            </div>
+                        </div>
+
+                        <div class="footer-column d-none d-xl-block me-4 mt-4">
+                            <h6>Employers</h6>
+                            <ul>
+                                <li><a href="">Search Job Seekers</a></li>
+                                <li><a href="">Create Profile</a></li>
+                                <li><a href="">Sign In</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="footer-column d-block d-xl-none me-4 accordion-column">
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h6 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#employers" aria-expanded="true"
+                                            aria-controls="employers">
+                                            Employers
+                                        </button>
+                                    </h6>
+                                    <div id="employers" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li><a href="">Search Job Seekers</a></li>
+                                                <li><a href="">Create Profile</a></li>
+                                                <li><a href="">Sign In</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="footer-column d-none d-xl-block me-4 mt-4">
+                            <h6>Job Seekers</h6>
+                            <ul>
+                                <li><a href="">Create Profile</a></li>
+                                <li><a href="">Sign In</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="footer-column d-block d-xl-none me-4 accordion-column">
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h6 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#jobseekers" aria-expanded="true"
+                                            aria-controls="jobseekers">
+                                            Job Seekers
+                                        </button>
+                                    </h6>
+                                    <div id="jobseekers" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li><a href="">Create Profile</a></li>
+                                                <li><a href="">Sign In</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer-column d-none d-xl-block me-4 mt-4">
+                            <h6>Popular Roles</h6>
+                            <ul>
+                                <li><a href="">Retail Sales Associate</a></li>
+                                <li><a href="">Customer Service Representative</a></li>
+                                <li><a href="">Account Executive</a></li>
+                                <li><a href="">Data Entry Clerk</a></li>
+                                <li><a href="">Sales Development Representative</a></li>
+                                <li><a href="">Call Center Agent</a></li>
+                                <li><a href="">Sales Manager</a></li>
+                                <li><a href="">Executive Assistant</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="footer-column d-block d-xl-none me-4 accordion-column">
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h6 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#popularroles"
+                                            aria-expanded="true" aria-controls="popularroles">
+                                            Popular Roles
+                                        </button>
+                                    </h6>
+                                    <div id="popularroles" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li><a href="">Retail Sales Associate</a></li>
+                                                <li><a href="">Customer Service Representative</a></li>
+                                                <li><a href="">Account Executive</a></li>
+                                                <li><a href="">Data Entry Clerk</a></li>
+                                                <li><a href="">Sales Development Representative</a></li>
+                                                <li><a href="">Call Center Agent</a></li>
+                                                <li><a href="">Sales Manager</a></li>
+                                                <li><a href="">Executive Assistant</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="footer-column d-none d-xl-block me-4 mt-4">
+                            <h6>Top Locations</h6>
+                            <ul>
+                                <li><a href="">Los Angeles</a></li>
+                                <li><a href="">Long Beach</a></li>
+                                <li><a href="">Santa Clarita</a></li>
+                                <li><a href="">Glendale</a></li>
+                                <li><a href="">Lancaster</a></li>
+                                <li><a href="">Palmdale</a></li>
+                                <li><a href="">Pomona</a></li>
+                                <li><a href="">Torrance</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="footer-column d-block d-xl-none me-4 accordion-column">
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h6 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#topLocations"
+                                            aria-expanded="true" aria-controls="topLocations">
+                                            Top Locations
+                                        </button>
+                                    </h6>
+                                    <div id="topLocations" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li><a href="">Los Angeles</a></li>
+                                                <li><a href="">Long Beach</a></li>
+                                                <li><a href="">Santa Clarita</a></li>
+                                                <li><a href="">Glendale</a></li>
+                                                <li><a href="">Lancaster</a></li>
+                                                <li><a href="">Palmdale</a></li>
+                                                <li><a href="">Pomona</a></li>
+                                                <li><a href="">Torrance</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="footer-column d-none d-xl-block me-4 mt-4">
+                            <h6>Our Company</h6>
+                            <ul>
+                                <li><a href="">About</a></li>
+                                <li><a href="">Blogs</a></li>
+                                <li><a href="">Terms of Use</a></li>
+                                <li><a href="">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="footer-column d-block d-xl-none me-4 accordion-column">
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h6 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#ourCompany" aria-expanded="true"
+                                            aria-controls="ourCompany">
+                                            Our Company
+                                        </button>
+                                    </h6>
+                                    <div id="ourCompany" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li><a href="">About</a></li>
+                                                <li><a href="">Blogs</a></li>
+                                                <li><a href="">Terms of Use</a></li>
+                                                <li><a href="">Privacy Policy</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="mb-0 copyright mt-3">Copyright 2024© Staft | All Right <br class="d-none d-lg-block" />
+                        Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 30,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                992: {
+                    slidesPerView: 3,
+                    spaceBetween: 40,
+                },
+                1200: {
+                    slidesPerView: 4,
+                    spaceBetween: 40,
+                },
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+</body>
+
+</html>
